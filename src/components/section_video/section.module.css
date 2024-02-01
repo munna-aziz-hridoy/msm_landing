@@ -1,0 +1,85 @@
+.video_wrapper {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.text_content,
+.video_container {
+  width: 50%;
+}
+
+.text_content h2 {
+  font-size: var(--heading-3);
+  font-weight: var(--base);
+  color: var(--text-black);
+  margin-bottom: 35px;
+}
+
+.text_content p {
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.text_content button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  gap: 20px;
+  font-weight: var(--medium);
+  color: var(--primary-color);
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.text_content button p {
+  margin-bottom: 0;
+  color: var(--primary-color);
+}
+
+.reviewer_box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #fff;
+  margin: 20px 0;
+  padding: 10px 30px;
+  box-shadow: 8px 6px 10px 1px #0000000a;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.reviewer_box img {
+  width: 40px;
+  height: 40px;
+}
+
+.reviewer_box p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.reviewer_box p strong {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.video_container {
+  min-height: 350px;
+}
+
+.video_container iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
